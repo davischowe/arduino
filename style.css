@@ -1,20 +1,37 @@
-div{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
-    color:rgb(20, 92, 155)
-}
 body{
-    background-color: black;
-    color:rgb(20, 92, 155);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
+    background-color: rgb(80, 81, 85);
+    color: rgb(199, 77, 77);
+    font-family: Verdana, sans-serif;
+}
+h1, h2, span{    
+    font-weight: bold;
+    color: rgba(226, 68, 68, 0.795);
+    background-color: rgba(195, 199, 201, 0.315);
+    transition: 1s;
+    background: transparent;
+    filter: drop-shadow(1px 5px 3px  #160a0a)
 
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 a:hover{
-    color: rgb(20, 92, 155);
-    background-color: rgb(211, 211, 219);
+    color: white;
     font-size: 1.25rem;
     transition: 0.5s;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(85, 206, 222);
+    transition: 1s;
+    background: transparent;
+    filter: drop-shadow(1px 5px 3px  #00d9ff) 
+
+}
+a:visited{
+    color: white;
+}
+div{
+    display: flex;
+  justify-content: center;
+  
 }
