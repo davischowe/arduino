@@ -1,0 +1,20 @@
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color:rgb(20, 92, 155)
+}
+body{
+    background-color: black;
+    color:rgb(20, 92, 155);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+
+}
+a:hover{
+    color: rgb(20, 92, 155);
+    background-color: rgb(211, 211, 219);
+    font-size: 1.25rem;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
